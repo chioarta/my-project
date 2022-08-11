@@ -26,3 +26,68 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/*
+.preindexbutton {
+  font-size:15px;
+  font-family:Arial;
+  width:340px;
+  height:170px;
+  border-width:1px;
+  color:#666666;
+  border-color:#dcdcdc;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  text-shadow:inset 0px 1px 0px #ffffff;
+  background:linear-gradient(#f9f9f9, #e9e9e9);
+}
+
+.preindexbutton:hover {
+  background: linear-gradient(#e9e9e9, #f9f9f9);
+}
+*/
+.button {
+  background-color:transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.preindexbutton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #e7e7e7;
+  display: inline-block;
+}
+
+.prequote{
+  font-style: italic;
+  font-size: 10;
+  background-color: #7777777d;
+  display: block;
+  padding: 3px;
+  outline: 2px;
+}
+
+.preindexbutton a:link,.preindexbutton a:visited{
+  text-decoration: none;
+  color:white;
+  display: block;
+}
+
+.preindexbutton:hover{
+  background-color: rgba(169, 169, 169, .1);
+}
