@@ -8,7 +8,10 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/preindeximg.jpg");
 
   /* Set a specific height */
+  width: 100%;
   height: 100%;
+  margin: 0px auto;
+
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -97,6 +100,11 @@ h1{
 }
 
 .cright{
+  text-align: center;
+  position: absolute;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.20);
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  left: 45%;
+  bottom: 5px;
 }
