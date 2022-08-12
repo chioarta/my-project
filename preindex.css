@@ -27,6 +27,9 @@ body, html {
   color: white;
 }
 
+h1{
+  font-style: oblique;
+}
 /*
 .preindexbutton {
   font-size:15px;
@@ -76,10 +79,11 @@ body, html {
 .prequote{
   font-style: italic;
   font-size: 10;
-  background-color: #7777777d;
+  background-color: rgba(119, 119, 119, 0.20);
   display: block;
   padding: 3px;
   outline: 2px;
+  margin-bottom: 15px;
 }
 
 .preindexbutton a:link,.preindexbutton a:visited{
@@ -90,4 +94,9 @@ body, html {
 
 .preindexbutton:hover{
   background-color: rgba(169, 169, 169, .1);
+}
+
+.cright{
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.20);
 }
