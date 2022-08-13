@@ -32,6 +32,7 @@ body, html {
 
 h1{
   font-style: oblique;
+  font-size: 50px;
 }
 /*
 .preindexbutton {
@@ -96,7 +97,9 @@ h1{
 }
 
 .preindexbutton:hover{
-  background-color: rgba(169, 169, 169, .1);
+  /*background-color: rgba(169, 169, 169, .1); */
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(221,221,221,0.25003504819896705) 50%, rgba(255,255,255,1) 100%);
 }
 
 .cright{
