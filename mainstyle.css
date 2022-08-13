@@ -16,46 +16,12 @@ a:hover{
     color:grey;
 }
 
-/*
-ul{
-    list-style-image: url(images/tie-icon.png);
-}
-
-nav ul{
-    list-style-type:none;
-    padding:0;
-
-}
-nav li{
-	display:inline;
-	float:left;
-}
-nav a:link,nav a:visited{
-    background-color:rgba(130, 130, 130, .4);
-    color:red;
-    display:block;
-    width:240px;
-    text-align:center;
-    padding:10px 0;
-
-    }
-nav a:hover{
-        background-color:rgba(0, 0, 131,.4);
- }
-*/
-
-/*
-html {
-  height:100%;
-  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
-}
-*/
 
 nav {
   max-width: 960px;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 nav ul {
@@ -87,15 +53,15 @@ nav ul li a:hover {
 
 aside{
     float:right;
-    background-color: gray;
+    background-color: rgb(128, 128, 128, .3);
     text-align:center;
     display:block;
     width: 40%;
-    padding: 10px;
+    padding: 3px;
     margin-right: 15px;
     font-style: italic;
-    box-shadow: 10px 10px 4px #000000;
  }
+
 .photo1{
 float: right;
 margin-right: 15px;
@@ -103,14 +69,13 @@ padding: 5px;
 padding-bottom: 30px;
  }
 
- p{
+p{
     text-indent: 30px;
 }
 
 
 .mainbutton {
     font-size:15px;
-    font-family:Arial;
     width:140px;
     height:50px;
     border-width:1px;
@@ -125,22 +90,17 @@ padding-bottom: 30px;
     text-shadow:inset 0px -1px 0px #2b665e;
     background:linear-gradient(#768d87, #6c7c7c);
   }
-  
-.buttonClass:hover {
-    background: linear-gradient(#6c7c7c, #768d87);
-  }
                 
-.bespokephoto{
-    float:center;
-    padding: 30px;
-    outline-color: #000000;
-    border: #000000;
+
+footer{
+  padding-top: 5px;
+  margin-bottom: 0px;
 }
+
 footer nav a:link, footer nav a:visited{
     display: block;
     background-color:transparent;
     color:black;
-    text-shadow: 2px 2px 4px #000000;
 }
 footer nav a:hover{
     color:red;
@@ -148,6 +108,13 @@ footer nav a:hover{
 
 header nav{
     padding: 0px;
-    background-color: greenyellow;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bespokephoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
