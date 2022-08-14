@@ -112,8 +112,7 @@ h1{
   bottom: 5px;
 }
 .socialmedia{
-  text-align: center;
-  
+  position:relative;
 }
 /* Style all font awesome icons */
 .fa {
