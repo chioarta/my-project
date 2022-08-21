@@ -1,13 +1,11 @@
-// perfoming a task
-function greet(name, lastName) {
-    console.log('Salutare' + name + ' ' + lastName);
+function testtrue(val) {
+    if (val > 100){
+        return "Over 100";
+    }
+    if (val > 10){
+        return "Over 10";
+    }
+    return "Over than 10";
 }
-
-
-
-// calculating ca value
-function square(number){
-    return number * number;
-}
-let number = square(2);
-console.log(square(2));
+console.log(testtrue(101));
+    
