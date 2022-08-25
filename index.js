@@ -22,5 +22,5 @@ if (count > 0){
 }
     return count + " " + holdbet;
 }
-cc(2); cc(3); cc(6); cc(2); cc(2);
+cc('A'); cc('K'); cc(6); cc(2); cc(10);
 console.log(cc('6'));
